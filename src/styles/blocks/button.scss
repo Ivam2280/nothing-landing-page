@@ -1,0 +1,33 @@
+.button {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 56px;
+  background-color: $main-text-color;
+  padding-inline: 48px;
+  border-radius: $border-radius-main;
+
+  font-weight: 700;
+  color: $color-main-bg;
+  text-decoration: none;
+
+  transition: all $effect-duration;
+
+  @include on-desktop {
+    max-width: 324px;
+  }
+
+  &:hover {
+    background-color: $color-surface-light;
+    border: 2px solid $color-border-light;
+    color: #292929;
+  }
+
+  &:active {
+    background-color: $color-button-active;
+    color: $color-main-bg;
+  }
+}
