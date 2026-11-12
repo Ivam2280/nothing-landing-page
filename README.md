@@ -7,6 +7,8 @@
 A responsive product landing page inspired by Nothing's minimalist visual identity.
 Built with HTML, SCSS, and vanilla JavaScript.
 
+**[Live Demo](https://ivam2280.github.io/nothing-landing-page/)**
+
 **HTML5 · SCSS · JavaScript · Parcel**
 
 [Overview](#overview) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [GitHub Pages](#github-pages) · [Project structure](#project-structure)
